@@ -8,12 +8,17 @@ var szurkekep = document.getElementById("szurkekep")
 
 var felirat = document.getElementById("felir")
 
-felirat.innerHTML = felirat
+
 
 
 zoldkep.style.display = "flex"
 kep = zoldkep
 
+
+function feliras()
+{
+    document.getElementById("felirat").innerHTML = felirat.value
+}
 
 function Szin()
 {
