@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mynerve&family=Tilt+Warp&display=swap');
+#polo
+{
+    height: 600px;
+}
+
+#felirat
+{
+    position: relative;
+    display: block;
+    top: -350px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.keret
+{
+    box-shadow: 10px 10px 10px #eee;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #888;
+}
+
+.jobb
+{
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+    color: #2d0116;
+}
