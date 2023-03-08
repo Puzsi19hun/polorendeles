@@ -2,6 +2,7 @@
 #polo
 {
     height: 600px;
+    font-family: "Tilt Warp"; 
 }
 
 #felirat
@@ -12,6 +13,7 @@
     z-index: 1;
     color: white;
     text-align: center;
+    
 }
 
 .keret
