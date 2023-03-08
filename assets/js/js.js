@@ -9,7 +9,7 @@ var szurkekep = document.getElementById("szurkekep")
 var felirat = document.getElementById("felir")
 var feliratirat = document.getElementById("felirat")
 
-
+document.getElementById("sorszam").value = 1
 
 
 zoldkep.style.display = "flex"
@@ -71,4 +71,9 @@ function Szin()
        narancskep.style.display = "none"
        szurkekep.style.display = "flex"
     }
+}
+
+function szam()
+{
+   document.getElementById("sorszam").innerHTML = document.getElementById("szam").value
 }
