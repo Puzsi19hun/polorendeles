@@ -34,3 +34,8 @@ h1
     font-family: 'Mynerve', cursive;
     color: #2d0116;
 }
+
+body
+{
+    background-image: url("/assets/images/pattern.png");
+}
