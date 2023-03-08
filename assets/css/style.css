@@ -3,18 +3,41 @@
 {
     height: 600px;
     font-family: "Tilt Warp"; 
+    margin-left: -6%;
+}
+
+#zoldkep
+{
+    display: none;
+}
+
+
+#narancskep
+{
+    display: none;
+}
+
+#piroskep
+{
+    display: none;
+}
+
+#kekkep
+{
+    display: none;
 }
 
 #felirat
 {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     top: -350px;
     z-index: 1;
-    font-size: 150%;
+    font-size: 180%;
     color: white;
     text-align: center;
-    
+    margin-left: 7%;
 }
 
 .keret
@@ -33,7 +56,15 @@
 
 #sorszam
 {
-    font-size: 700%;
+    font-size: 820%;
+    position: relative;
+    margin-left: 60px;
+    display: block;
+    top: -350px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-right: 3%;
 }
 
 h1
