@@ -11,6 +11,7 @@
     display: block;
     top: -350px;
     z-index: 1;
+    font-size: 150%;
     color: white;
     text-align: center;
     
@@ -28,6 +29,11 @@
 {
     font-family: 'Caveat', cursive;
     font-size: 2em;
+}
+
+#sorszam
+{
+    font-size: 700%;
 }
 
 h1
