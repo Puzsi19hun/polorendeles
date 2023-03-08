@@ -7,6 +7,7 @@ var piroskep = document.getElementById("piroskep")
 var szurkekep = document.getElementById("szurkekep")
 
 var felirat = document.getElementById("felir")
+var feliratirat = document.getElementById("felirat")
 
 
 
@@ -17,7 +18,8 @@ kep = zoldkep
 
 function feliras()
 {
-    document.getElementById("felirat").innerHTML = felirat.value
+    feliratirat.innerHTML = felirat.value
+    feliratirat.style.textTransform = "uppercase"
 }
 
 function Szin()
